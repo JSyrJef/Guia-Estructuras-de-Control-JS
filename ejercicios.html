@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <main class="m-5">
+        <!-- EJERCICIO 4 -->
+        <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 4
+                </div>
+            </article>
+            
+            <article>
+                <label for="num1" class="num1">Ingrese un número</label>
+                <input type="number" id="num1">
+                <label for="num2" class="num2">Ingrese un número</label>
+                <input type="number" id="num2">
+                <button id="numMayor" class="btn btn-danger">Comparar</button>
+                <h2 id="numMayorResult"></h2>
+            </article>
+        </section>
+
+        <!-- EJERCICIO 5 -->
+        <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 5
+                </div>
+            </article>
+            <h4>Seleccione el coche que desea comprar</h4>
+            <select class="form-select" aria-label="Escoge un auto" id="escogerAuto" style="width: 250px;">
+                <option selected>ESCOGE UN AUTO</option>
+                <option value="FORD FIESTA,15000">FORD FIESTA - $15,000</option>
+                <option value="FORD FOCUS,34000">FORD FOCUS - $34,000</option>
+                <option value="FORD ESCAPE,30000">FORD ESCAPE - $30,000</option>
+            </select>
+            <button id="calcularBtn" class="btn btn-danger">Calcular Descuento</button>
+        
+            <h3 id="resultado"></h3>
+        </section>
+
+        <!-- EJERCICIO 6 -->
+        <article class="card my-5">
+            <div class="card-body">
+                Ejercicio 6
+            </div>
+        </article>
+        <section>
+            <h4>Seleccione el lugar de origen</h4>
+            <select class="form-select" aria-label="Escoge un punto de origen" id="origenSelect" style="width: 300px;">
+                <option selected>ESCOGE UN PUNTO DE ORIGEN</option>
+                <option value="Ciudad de Palma">Cuidad de Palma</option>
+                <option value="San Salvador">San Salvador</option>
+                <option value="Santa Ana">Santa Ana</option>
+            </select>
+
+            <h4 class="mt-3">Seleccione el destino turístico</h4>
+            <select class="form-select" aria-label="Escoge un destino turístico" id="destinoSelect" style="width: 300px;">
+                <option selected>ESCOGE UN DESTINO</option>
+                <option value="La Costa del Sol">La Costa del Sol</option>
+                <option value="Panchimalco">Panchimalco</option>
+                <option value="Puerto El Triunfo">Puerto El Triunfo</option>
+            </select>
+
+            <button id="viajeBtn" class="btn btn-danger mt-3">Calcular Descuento</button>
+
+            <h3 id="viajeResult" class="mt-3"></h3>
+        </section>
+
+        <!-- EJERCICIO 7 -->
+        <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 7
+                </div>
+            </article>
+            <button id="ingresarNumeros" class="btn btn-danger">Ingresar Números</button>
+            <h1 id="resultadosCant"></h1>
+        </section>
+
+        <!-- EJERCICIO 8 -->
+        <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 8
+                </div>
+            </article>
+            <button id="inputNum" class="btn btn-danger">Ingresar un numero para mostrar su tabla de multiplicar</button>
+            <h1 id="resultTable"></h1>
+        </section>
+
+        <!-- EJERCICIO 9 -->
+        <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 9
+                </div>
+            </article>
+            <button id="inputTemp" class="btn btn-danger">Conversor de temperatura</button>
+            <h1 id="resultTemp"></h1>
+        </section>
+
+         <!-- EJERCICIO 10 -->
+         <section>
+            <article class="card my-5">
+                <div class="card-body">
+                    Ejercicio 10
+                </div>
+            </article>
+            <button id="inputEstudiantesProm" class="btn btn-danger">Ingrese las edades de los estudiantes</button>
+            <h1 id="resultProm"></h1>
+        </section>
+    </main>
+<script src="ejercicios.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
